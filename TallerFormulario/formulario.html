@@ -1,0 +1,191 @@
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="Cristian">
+      <meta name="generator" content="Crsitian munevar">
+      <title>Formulario</title>
+
+      <!-- Bootstrap core CSS -->
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+
+      <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      </style>
+      <!-- Custom styles for this template -->
+    </head>
+    <body class="bg-light">
+      <div class="container">
+    <div class="py-5 text-center">
+      <h2>Formulario de Compra</h2>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-8 order-md-1">
+
+          <h3>Información Personal</h3>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName">Nombres</label>
+              <input type="text" class="form-control" id="name" placeholder="Ingrese Sus Nombres" value="">
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName">Apellidos</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Ingrese Sus Apellidos" value="">
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="username">Correo Electronico</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+              </div>
+              <input type="text" class="form-control" id="email" placeholder="info@ejemplo.com">
+            </div>
+          </div>
+
+          <h3>Información Tarjeta de Credito</h3>
+          <div class="mb-3">
+            <label for="country">Tipo de Tarjeta</label>
+              <select class="custom-select d-block w-100" id="cardtype">
+                <option value="">Seleccione...</option>
+                <option>Visa</option>
+                <option>Master Card</option>
+                <option>Dinners Club</option>
+                <option>American Express</option>
+              </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="address">Nombre Titular</label>
+            <input type="text" class="form-control" id="nameholder" placeholder="Ingrese Nombre en la Tarjeta">
+          </div>
+
+          <div class="mb-3">
+            <label for="address2">Numero de tarjeta</label>
+            <input type="text" class="form-control" id="numbercard" placeholder="Ingrese Numero de Tarjeta">
+          </div>
+
+          <div class="mb-3">
+              <label for="cc-cvv">CVV</label>
+              <input type="text" class="form-control" id="cvv" placeholder="">
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="month">Mes</label>
+              <select class="custom-select d-block w-100" id="month">
+                <option value="">1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="year">Año</label>
+              <select class="custom-select d-block w-100" id="year">
+                <option value="">2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+              </select>
+            </div>
+          </div>
+
+          <h3>Dirección de Facturación</h3>
+
+                  <div class="mb-3">
+                    <label for="address">Dirección</label>
+                    <input type="text" class="form-control" id="address" placeholder="Calle 123 N° 1 2">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="address">Ciudad</label>
+                    <input type="text" class="form-control" id="city" placeholder="Ingrese Ciudad">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="country">Departamento</label>
+                      <select class="custom-select d-block w-100" id="department">
+                        <option value="">Seleccione...</option>
+                        <option>Bogota</option>
+                        <option>Medelllin</option>
+                      </select>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="address">Codigo Postal</label>
+                    <input type="text" class="form-control" id="postal" placeholder="Ingrese Codigo Postal">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="country">Pais</label>
+                      <select class="custom-select d-block w-100" id="country">
+                        <option value="">Seleccione...</option>
+                        <option>Colombia</option>
+                        <option>Argentina</option>
+                      </select>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="address">Telefono</label>
+                    <input type="text" class="form-control" id="phone" placeholder="5555555">
+                    <div class="invalid-feedback">
+                    </div>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="address">Codigo de Seguridad</label>
+                    <input type="text" class="form-control" id="" placeholder="5555555">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="address">Ingrese Codigo de Seguridad</label>
+                    <input type="text" class="form-control" id="codigo" placeholder="">
+                  </div>
+
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="same-address">
+            <label class="custom-control-label" for="same-address">Marque si es mayor de edad</label>
+          </div>
+
+          <hr class="mb-4">
+          <button class="btn btn-primary btn-lg btn-block" onclick="send()">Enviar</button><hr>
+         <br><a href="data.html"><button class="btn btn-primary btn-lg btn-block">Mostrar Datos</button></a>
+
+         <br><div class= "alert alert-success" role = "alert" id = alert></div>
+        
+      </div>
+    </div>
+
+  </div>
+        
+      </body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="js/app.js"></script>
+      <script src="js/data.js"></script>
+  </html>
